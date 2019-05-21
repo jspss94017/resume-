@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>resume</title>
+	<style>
+		.bg{margin: 20px 60px;
+		    padding: 70px 80px;
+		    line-height: 40px;　　　          　/* 設定文字行距 */
+		    letter-spacing: 20px;
+			font-family:"標楷體";
+			font-size: 20px;
+			background-color: #B7DBE2;
+		    border-width:10px;border-style:double;border-color:#FFAC55;padding:5px;}
+        .me {float: left;}
+		.topic{font-family:cursive; font-size:100px; line-height: 110px; letter-spacing: 15px;}
+		p{text-align: right;font-size:30px;}
+		#p1{text-align:center;font-size:24px;}
+		#div1{columns: 2 auto;column-rule: blue solid 1px;}
+		#left{column-width: 200px;}  
+		#right{column-width: 800px;}
+		#middle{vertical-align:middle;}
+        section{ position: absolute;left:100px;top:430px;}
+		aside{ position: absolute;left:450px;top:400px; width: 950px;}
+        .english{font-family: cursive; font-size:50px;}
+		.english2{font-family: cursive; font-size:30px;}
+
+		#myProgress {
+		width: 100%;
+		background-color: white;
+		text-align: left;
+		}
+		#net{
+		width:70%;
+		height: 30px;
+		background-color: green;
+		text-align: left;
+		animation-name: example;
+		animation-duration: 2s;
+		}
+		#java {
+		width: 60%;
+		height: 30px;
+		background-color: green;
+		text-align: left;
+		animation-name: example;
+		animation-duration: 2s;
+		}
+		#html {
+		width: 80%;
+		height: 30px;
+		background-color: green;
+		text-align: left;
+		animation-name: example;
+		animation-duration: 2s;
+		}
+		
+		@keyframes example {
+		0%   {background-color:green; width: 10%;}
+		25%  {background-color:green; width: 30%;}
+		50%  {background-color:green; width: 50%;}
+		75%  {background-color:green; width: 70%;}
+		100% {background-color:green; width: 80%;}
+		}
+		.flip-card {
+		float: left;
+		background-color: transparent;
+		width: 310px;
+		height: 400px;
+		border: 3px solid #f1f1f1;
+		
+		}
+		
+		.flip-card-inner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		transition: transform 0.8s;
+		transform-style: preserve-3d;
+		}
+		.flip-card:hover .flip-card-inner {
+		transform: rotateY(180deg);
+		}
+		.flip-card-front, .flip-card-back {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		backface-visibility: hidden;
+		}
+		.flip-card-front {
+		background-color: #bbb;
+		color: black;
+		}
+		.flip-card-back {
+		
+		background-color:#F7F5CA;
+		color: black;
+		transform: rotateY(180deg);
+		}
+
+		#short{width:300px;border-color: black;}
+		#long{width:950px; border-color: black;}
+		footer{position:absolute;top: 1550px;left: 0px;right: 0px; background-color: grey;width:100%;}
+	</style>
+</head>
+<body class="bg">
+
+	<header>
+				<img src="p/head.jpg" width="290px" height="310px" class="me">
+				<center><font class="topic"> Chia Yi Chen
+				<br> Resume</font></center>
+				<p><b>>>生活過得去，開心就好!</b></p>
+	</header>
+	<div id="div1">
+				<div id="left">
+				<section>
+				
+					<img src="p/me.png" width="50px" height="50px" id="middle">  <a href="test.html">個人網站</a><br>
+					<img src="p/phone.png" width="50px" height="50px" id="middle">  0975978630<br>
+					&nbsp<img src="p/email.png"  width="35px" height="35px" id="middle">  <a href="mailto:jspss94017@gmail.com">jspss94017@gmail.com</a><br>
+
+					<img src="p/home.png" width="50px" height="50px" id="middle">新竹市武陵路271巷57弄16號
+					<br><br>
+					<font class="english">advantage</font><hr id="short">
+					<ul>
+					<li>善於交際</li>
+					<li>上台報告</li>
+                    <li>獨立作業</li>
+                    <li>美工、攝影能力</li>
+					</ul>
+					<font class="english">education</font><hr id="short">
+					<br>
+					<center>
+					<img src="p/hccvs.png" width="250" height="200"><br><br>
+					<img src="p/cycu.png" width="200" height="200"></center>
+			    </section>
+				</div>
+					<div id="right">
+				<aside>
+					<font class="english">about me </font><hr id="long">
+					&nbsp&nbsp 糖果、餅乾、布娃娃，充滿著每位女孩的幸福童年，但伴隨我長大的只有手上的厚繭以及媽媽辛苦工作的背影，我叫陳佳儀，在家排行老么，但我卻沒有老么常見的嬌氣以及任性，兒時家境並不富裕，我小小年紀就必須打理自己的生活，學習如何做生意，學會如何不給大人添麻煩，環境因素使得我比同齡人更加成熟，更加有計畫性，眼光放得更加長遠。
+					<br>  <br>
+					<font class="english">skill</font><hr id="long">
+					
+					c#<div id="myProgress"><div id="net"></div></div>
+					java<div id="myProgress"><div id="java"></div></div>
+					html<div id="myProgress"><div id="html"></div></div>
+					<br> 
+					<font class="english">experience</font><hr id="long">
+					
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="p/god.jpg" alt="Avatar" style="width:310px;height:400px;">
+							</div>
+							<div class="flip-card-back">
+								<p id="p1">企業概論-與農同行</p>
+							&nbsp&nbsp一下時，舉行為期一學期的義賣活動，販售微熱山丘天使鳳梨蛋糕，其所得最後全數捐出，在這一學期間配合義賣至教學大樓擺設攤販，並推出母親節感恩活動，執行專案並將愛心傳播給需要的人，使我收穫許多。</div>
+						</div>
+					</div>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="p/dog.jpg" alt="Avatar" style="width:310px;height:400px;">
+							</div>
+							<div class="flip-card-back">
+								<p id="p1">志工服務</p>
+							&nbsp&nbsp我利用課餘時間參加了導盲犬保護協會的志工服務，人生來就不平等，而看不見的盲人們就只能倚仗導盲犬的幫忙，我們透過發放傳單的方式使大眾能夠理解盲人的不便，允許狗狗能隨意進出公共空間</div>
+						</div>
+					</div>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="p/bao.jpg" alt="Avatar" style="width:310px;height:400px;">
+							</div>
+							<div class="flip-card-back">
+								<p id="p1">打工經歷</p>
+							&nbsp&nbsp我利用課餘時間找了一份附近的工作，一方面提升自己的交際手腕，一方面賺取薪水多多少少貼補家用，自2018年9月起任職於呷飽飽創意鍋燒。
+							</div>
+						</div>
+					</div>
+		
+</div>
+</div>
+<footer>
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</footer>
+</body>
+</html>
